@@ -1,7 +1,15 @@
 {
   "name": "react-create-package-test-rb87",
   "version": "0.1.0",
+  "main": "./lib/index.js",
   "private": true,
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": "robinb87",
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
